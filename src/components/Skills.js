@@ -7,6 +7,7 @@ import cppl from "../assets/img/cppl.png";
 import githubl from "../assets/img/githubl.png";
 import htmll from "../assets/img/htmll.png";
 import reactl from "../assets/img/reactl.png";
+import pgs from "../assets/img/pgs.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 /*import arrow1 from "../assets/img/arrow1.svg";
@@ -73,6 +74,9 @@ export const Skills = () => {
                             </div><div className="item">
                                 <img src={githubl} alt="github" />
                                 <h5>GitHub</h5>
+                            </div><div className="item">
+                                <img src={pgs} alt="pg" />
+                                <h5>PostGreSql</h5>
                             </div>
                         </Carousel>
                     </div>

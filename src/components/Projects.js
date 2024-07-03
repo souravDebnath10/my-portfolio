@@ -11,19 +11,22 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Landing Page",
-      description: "Front-end Development",
+      title: "Electro-Motive Solutions",
+      description: "Full-Stack Development",
       imgUrl: projImg1,
+      purl:"https://github.com/souravDebnath10/ElectromotiveSolution",
     },
     {
-      title: "Blog Website",
+      title: "Meme",
       description: "Full Stack development",
       imgUrl: projImg2,
+      purl:"https://meme-9w01.onrender.com",
     },
     {
       title: "Music Website",
       description: "Design & Development",
       imgUrl: projImg3,
+      purl:"https://github.com/souravDebnath10/Drum-kit",
     },
   
   ];

@@ -264,7 +264,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #000000;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -290,16 +290,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  border-radius: 10%;
 }
 @keyframes updown {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(10px);
     }
     100% {
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
 }
 .txt-rotate > .wrap {
@@ -387,7 +388,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
   text-align: center;
   z-index: 0;
 }
